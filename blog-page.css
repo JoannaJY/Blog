@@ -1,0 +1,60 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(5 1fr);
+    border:10px solid red;
+    grid-template-areas: 
+    "hd hd"
+    "pic pic"
+    "bar bar"
+    "main sd"
+    "ft ft";
+}
+
+#box{
+    border:10px solid yellow;
+    
+}
+.header{
+    grid-area: hd;
+    
+}
+#main-pic{
+    width:100%;
+    Height:auto;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#box1{
+    
+}
+#form{
+    
+}
+#title{
+    font-family: 'Sofia', cursive;
+    font-size: 48px;
+    
+}
+#name{
+  
+}
+.main-pic{
+    grid-area:pic;
+}
+.nav{
+    grid-area:bar;
+}
+.content{
+    grid-area:main;
+}
+.sidebar{
+    grid-area:sd;
+}
+.footer{
+    grid-area:ft;
+}
