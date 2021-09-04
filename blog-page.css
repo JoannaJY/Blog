@@ -14,10 +14,41 @@
 #box{
     border:10px solid yellow;
     
+    
 }
 .header{
     grid-area: hd;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+#form{
+    text-align: right;
+    display:flex;
+    justify-content:space-evenly;
+    gap: 20px;
+    padding: 80px 24px;
+}
+#subscrip{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  background-color:rgb(247, 141, 100);
+  border-radius: 60px;
+}
+#title{
+    font-family: 'Sofia', cursive;
+    font-size: 64px;
+    margin: 30px 80px;
+    color:yellow
+}
+#subtitle{
+    font-family: 'Sofia', cursive;
+    font-size: 32px;
+    padding-left: 100px;
+    margin: -50px 80px;
+    color: yellow;
 }
 #main-pic{
     width:100%;
@@ -32,17 +63,9 @@
 #box1{
     
 }
-#form{
-    
-}
-#title{
-    font-family: 'Sofia', cursive;
-    font-size: 48px;
-    
-}
-#name{
-  
-}
+
+
+
 .main-pic{
     grid-area:pic;
 }
