@@ -37,6 +37,9 @@
   background-color:rgb(247, 141, 100);
   border-radius: 60px;
 }
+#subscrip:hover{
+    background-color:lightseagreen
+}
 #title{
     font-family: 'Sofia', cursive;
     font-size: 64px;
@@ -50,28 +53,42 @@
     margin: -50px 80px;
     color: yellow;
 }
-#main-pic{
+.main-pic{
+    position: relative;
+    grid-area:pic;
+}
+img {
     width:100%;
     Height:auto;
+    
 }
+ 
+.main-pic-text{
+    color: whitesmoke;
+    font-size: 80px;
+    position:center;
+
+}
+
 .nav{
+    grid-area:bar;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 
 }
-#box1{
-    
+.bar{
+    font-family: 'Acme', sans-serif;
+    font-size: 32px;
+    border-radius: 40px;
+    margin: 20px 20px;
+    background-color:linen
+}
+.bar:hover{
+    background-color:lightseagreen
 }
 
-
-
-.main-pic{
-    grid-area:pic;
-}
-.nav{
-    grid-area:bar;
-}
 .content{
     grid-area:main;
 }
