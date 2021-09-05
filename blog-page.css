@@ -12,9 +12,7 @@
 }
 
 #box{
-    border:10px solid yellow;
-    
-    
+    border:10px solid yellow; 
 }
 .header{
     grid-area: hd;
@@ -53,21 +51,32 @@
     margin: -50px 80px;
     color: yellow;
 }
+
 .main-pic{
-    position: relative;
     grid-area:pic;
+    text-align: center;
+    color:black;
+
 }
-img {
-    width:100%;
-    Height:auto;
+.pic{
+    width: 100%;
+    
     
 }
- 
 .main-pic-text{
-    color: whitesmoke;
-    font-size: 80px;
-    position:center;
-
+  
+  color: rgb(66, 161, 224);
+  font-weight: bold;
+  
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  
+  z-index: 2;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+  font-size: 60px;
 }
 
 .nav{
