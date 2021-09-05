@@ -6,8 +6,8 @@
     grid-template-areas: 
     "hd hd"
     "pic pic"
-    "bar bar"
     "main sd"
+    "bar bar"
     "ft ft";
 }
 
@@ -48,10 +48,74 @@
     
 }
 a:hover{
-    color: indigo;
-    
+    color: indigo;  
 }
-#form{
+
+
+.main-pic{
+    grid-area:pic;
+    text-align: center;
+}
+
+.main-pic-text{
+    background-color: rgb(66, 66, 66); 
+    background-color: rgba(77, 77, 77, 0.4);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid #f1f1f1;
+    top: 20%;
+    left: 80%;
+    z-index: 2;
+    width: 100%;
+    padding: 10px;
+
+}
+.content{
+    grid-area:main;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: 20px 1fr 1fr;
+    margin: 0px 80px;
+    justify-content: space-between;
+    padding: 40px 40px;
+    grid-template-areas: 
+    "go go go"
+    "card1 card1 card1"
+    "card2 card2 card2";
+}
+.skip{
+    grid-area: go;
+    font-size: 20px;
+    text-align: right;
+    padding: 20px 40px;
+    color: darkolivegreen;;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+	border-radius: 5px;
+    box-shadow: 0 15px 30px 1px grey;
+    padding: 60px 40px;
+    margin: 30px;
+}
+
+.content-pic{
+    width: 100%;
+    height: 130%;
+}
+
+.container1{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+
+}
+
+
+
+.form{
     text-align: right;
     display:flex;
     justify-content:space-evenly;
@@ -70,33 +134,7 @@ a:hover{
 }
 
 
-.main-pic{
-    grid-area:pic;
-    text-align: center;
 
-}
-
-.main-pic-text{
-   
-    background-color: rgb(66, 66, 66); 
-    background-color: rgba(77, 77, 77, 0.4);
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-    border: 3px solid #f1f1f1;
-    top: 20%;
-    left: 80%;
-    z-index: 2;
-    width: 100%;
-    padding: 10px;
-
-}
-
-
-
-.content{
-    grid-area:main;
-}
 .sidebar{
     grid-area:sd;
 }
