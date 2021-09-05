@@ -1,8 +1,7 @@
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(5 1fr);
-    border:10px solid red;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 20px repeat(4 1fr);
     grid-template-areas: 
     "hd hd"
     "pic pic"
@@ -20,18 +19,11 @@
 }
 #title{
     font-family: 'Sofia', cursive;
-    font-size: 64px;
-    margin: 30px 80px;
-    color:darkolivegreen
+    font-size: 40px;
+    margin: 0px 80px;
+    color:#4A6D7C;
 }
-#subtitle{
-    font-family: 'Sofia', cursive;
-    font-size: 32px;
-    padding-left: 100px;
-    margin: -50px 80px;
-    color: darkolivegreen;
 
-}
 .nav{
     display: flex;
     flex-direction: row;
@@ -40,10 +32,9 @@
 }
 .bar{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    padding-top: 70px;
-    margin: 40px 20px;
-    color: darkolivegreen;
+    font-size: 20px;
+    margin:30px;
+    color: #4A6D7C;
     text-decoration: none;
     
 }
@@ -58,8 +49,8 @@ a:hover{
 }
 
 .main-pic-text{
-    background-color: rgb(66, 66, 66); 
-    background-color: rgba(77, 77, 77, 0.4);
+    background-color: #62929E; 
+    background-color: rgba(98, 146, 158, 0.4);
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 20px;
@@ -74,22 +65,22 @@ a:hover{
 .content{
     grid-area:main;
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-rows: 20px 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows:repeat(3, 1fr); */
     margin: 0px 80px;
-    justify-content: space-between;
     padding: 40px 40px;
     grid-template-areas: 
     "go go go"
     "card1 card1 card1"
-    "card2 card2 card2";
+    "card1 card1 card1";
 }
+
 .skip{
     grid-area: go;
     font-size: 20px;
     text-align: right;
-    padding: 20px 40px;
-    color: darkolivegreen;;
+    padding: 10px 40px;
+    color: #4A6D7C;
 }
 .card1{
     display: flex;
@@ -102,18 +93,32 @@ a:hover{
 }
 
 .content-pic{
-    width: 100%;
-    height: 130%;
+    max-width: 100%;
+    height: auto;
 }
 
 .container1{
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-family: 'Abril Fatface', cursive;
     margin: 30px;
-
+    color: #4A6D7C;
+}
+.article{
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-
+.read-more{
+    margin-left: 50%;
+    font-size: 0.5em;
+    margin-top: 50px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.read-more:hover{
+    font-size: 20px;
+    color: indigo;
+}
 
 .form{
     text-align: right;
