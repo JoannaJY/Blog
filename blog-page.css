@@ -119,6 +119,35 @@ a:hover{
     font-size: 20px;
     color: indigo;
 }
+.sidebar{
+    grid-area:sd;
+    display:flex;
+    flex-direction: column;
+    font-family: "Righteous", cursive;
+    margin: 10px;
+    color: #4A6D7C;
+}
+.sidebar-title{
+    font-size: 20px;
+}
+.side{
+    display:block
+    max-width: 30%;
+    height: 30%;
+    margin: 30px;
+    padding:20px 20px;
+}
+.sd-pic{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
 
 .form{
     text-align: right;
@@ -140,9 +169,7 @@ a:hover{
 
 
 
-.sidebar{
-    grid-area:sd;
-}
+
 .footer{
     grid-area:ft;
 }
