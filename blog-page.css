@@ -38,16 +38,17 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    align-items: center;
 }
 .bar{
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin:30px;
     color: #4A6D7C;
     text-decoration: none;
     
 }
+
 a:hover{
     color: indigo;  
 }
@@ -188,13 +189,13 @@ a:hover{
 .small-logo{
     color: white;
     font-family:'Lobster', cursive;
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
     padding:10px;
 }
 .copyright{
     margin:70px 50px;
-    font-size: 16px;
+    font-size: 12px;
     color: white;
 }
 .footer-right{
@@ -273,7 +274,7 @@ a:hover{
         "bar bar"
         "ft ft";
     }
-
+    
 
     #title{
         font-size: 40px;
@@ -318,7 +319,9 @@ a:hover{
         "ft ft";
     }
 
-
+    .icon{
+        display: none;
+    }
     #title{
         font-size: 40px;
         margin: 0px 80px;
