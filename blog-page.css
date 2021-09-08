@@ -304,6 +304,13 @@ a:hover{
     .sidebar-title{
         font-size: 30px;
     }
+    .small-logo{
+        font-size: 40px;
+    }
+    .copyright{
+        font-size: 20px;
+
+    }
  }
 
 @media (min-width:1200px) and (max-width:1849px) {
@@ -349,5 +356,12 @@ a:hover{
     }
     .sidebar-title{
         font-size: 30px;
+    }
+    .small-logo{
+        font-size: 36px;
+    }
+    .copyright{
+        font-size: 16px;
+
     }
  }
