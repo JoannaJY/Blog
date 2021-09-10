@@ -51,7 +51,24 @@
     margin-top: 20px;
     margin-left: 32%;
 }
-.Ingredients{
+.Ingredients h3{
     font-size: 24px;
-
+    background-color:rgba(98, 146, 158, 0.4);
+    display: inline;
+    border-radius: 10%;
+}
+.article-indi{
+    text-align: left;
+    margin-left: 24%;
+    font-size: 20px;
+}
+.step h3{
+    font-size: 24px;
+    background-color:rgba(98, 146, 158, 0.4);
+    display: inline;
+    border-radius: 10%;
+}
+.p{
+    text-align: left;
+    font-size: 20px;
 }
