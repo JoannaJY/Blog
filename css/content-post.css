@@ -51,7 +51,7 @@
     margin-top: 20px;
     margin-left: 32%;
 }
-.Ingredients h3{
+.ingredients h3{
     font-size: 24px;
     background-color:rgba(98, 146, 158, 0.4);
     display: inline;
@@ -99,11 +99,11 @@
         
     }
 
-    .Ingredients{
+    .ingredients{
         margin-top: 100px;
        
     }
-    .Ingredients h3{
+    .ingredients h3{
         margin-top: 20px;
         font-size: 30px;
         background-color:rgba(98, 146, 158, 0.4);
