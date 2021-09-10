@@ -5,13 +5,13 @@
 
 .post{
     display:grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 8/2;
     grid-template-rows: 1/2/8/1;
     grid-template-areas: 
-    "hd hd"
-    "pic pic"
-    "main sd"
-    "ft ft";
+    "hd hd hd hd hd"
+    "pic pic pic pic pic "
+    "main main main main sd"
+    "ft ft ft ft ft";
 }
 .header{
     grid-area: hd;
