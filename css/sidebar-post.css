@@ -1,0 +1,54 @@
+.sidebar{
+    grid-area: sd;
+    display: block;
+    margin-top: 10%;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px 1px grey;
+    padding:20px;
+    height: 380px;
+    margin: 100px 20px 0 -20px;
+}
+.ava{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.ava img{
+    margin: 0px 10px 0 -10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#f1{
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    width: 10px;
+    color: black;
+    font-size: 20px;
+}
+#f1:hover{
+    color: indigo;
+}
+.icons{
+    text-align: center;
+}
+@media (min-width:1850px) {
+    .sidebar{
+        font-size: 20px;
+        height: 500px;
+    }
+    .ava{
+        font-size: 22px;
+        padding-top: 20px;
+    }
+}
